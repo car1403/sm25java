@@ -9,9 +9,19 @@ public class Array11 {
         Random rand = new Random();
         for(int i=0;i<5;i++){
             int num = rand.nextInt(10)+1;
-            if(!Arrays.asList(arr).contains(num)){
+            Integer intNum = Integer.valueOf(num);
+            if(Arrays.stream(arr).anyMatch(value -> value == num)){
+                if(i != 0){
+                    i--;
+                }
+            }else{
                 arr[i] = num;
             }
+//            if(!Arrays.stream(arr).anyMatch(value -> value == num)){
+//                System.out.println(num);
+//                arr[i] = num;
+//            }
+
         }
         System.out.println(Arrays.toString(arr));
         System.out.println(Arrays.stream(arr).max().getAsInt());
