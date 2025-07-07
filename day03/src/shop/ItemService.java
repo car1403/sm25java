@@ -3,28 +3,35 @@ package shop;
 import java.util.List;
 
 public class ItemService implements SmService<ItemDto, Integer>{
+
+    SmRepository<ItemDto, Integer> smRepository;
+
+    public ItemService() {
+        smRepository = new ItemMySQLRepository();
+    }
+
     @Override
     public void register(ItemDto itemDto) {
-
+        smRepository.insert(itemDto);
     }
 
     @Override
     public void modify(ItemDto itemDto) {
-
+        smRepository.update(itemDto);
     }
 
     @Override
     public void remove(Integer integer) {
-
+        smRepository.delete(integer);
     }
 
     @Override
     public List<ItemDto> get() {
-        return List.of();
+        return smRepository.selectAll();
     }
 
     @Override
     public ItemDto get(Integer integer) {
-        return null;
+        return smRepository.select(integer);
     }
 }
