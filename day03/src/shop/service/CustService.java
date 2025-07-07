@@ -1,8 +1,13 @@
-package shop;
+package shop.service;
+
+import shop.dto.CustDto;
+import shop.frame.SmRepository;
+import shop.frame.SmService;
+import shop.repository.CustMySQLRepository;
 
 import java.util.List;
 
-public class CustService implements SmService<CustDto, String>{
+public class CustService implements SmService<CustDto, String> {
 
     SmRepository<CustDto, String> smRepository;
 

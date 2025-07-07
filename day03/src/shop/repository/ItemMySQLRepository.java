@@ -1,9 +1,12 @@
-package shop;
+package shop.repository;
+
+import shop.dto.ItemDto;
+import shop.frame.SmRepository;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ItemMySQLRepository implements SmRepository<ItemDto, Integer>{
+public class ItemMySQLRepository implements SmRepository<ItemDto, Integer> {
     @Override
     public void insert(ItemDto itemDto) {
         System.out.println("MySQL: Inserted Item Table");
