@@ -14,5 +14,28 @@ public class CustService implements SmService<Cust, String> {
         this.custRepository = new CustRepository();
     }
 
+    @Override
+    public void register(Cust cust) throws Exception {
 
+    }
+
+    @Override
+    public void modify(Cust cust) throws Exception {
+
+    }
+
+    @Override
+    public void remove(String s) throws Exception {
+
+    }
+
+    @Override
+    public List<Cust> get() throws Exception {
+        return List.of();
+    }
+
+    @Override
+    public Cust get(String s) throws Exception {
+        return null;
+    }
 }
