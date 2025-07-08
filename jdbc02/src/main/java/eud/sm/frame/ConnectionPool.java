@@ -26,6 +26,22 @@ public class ConnectionPool {
         }
     }
 
+//    public static class Holder {
+//        private static final ConnectionPool SOBJ;
+//
+//        static {
+//            try {
+//                SOBJ = create();
+//            } catch (SQLException e) {
+//                throw new RuntimeException(e);
+//            }
+//        }
+//    }
+//
+//    public static ConnectionPool getInstance() {
+//        return  Holder.SOBJ;
+//    }
+
     public static ConnectionPool create() throws SQLException {
 
         String url = rb.getString("url");
@@ -49,6 +65,8 @@ public class ConnectionPool {
         Connection connection = connectionPool
                 .remove(connectionPool.size() - 1);
         usedConnections.add(connection);
+        System.out.println("usedConnections Size::::"+usedConnections.size()+":"+connectionPool.size());
+
         return connection;
     }
 
