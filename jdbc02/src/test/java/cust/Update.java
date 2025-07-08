@@ -11,8 +11,8 @@ public class Update {
         System.out.println("Update Test Start ...");
         CustService custService = new CustService();
         Cust cust = Cust.builder()
-                .custId("id56")
-                .custPwd("pwd66")
+                .custId("id55")
+                .custPwd("555")
                 .custName("고말고")
                 .build();
         try {

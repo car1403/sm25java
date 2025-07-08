@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cust.Update" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-08T07:33:15.037Z" hostname="HB-301B" time="0.464">
+  <properties/>
+  <testcase name="insert()" classname="cust.Update" time="0.464"/>
+  <system-out><![CDATA[Update Test Start ...
+OK
+jdbc:mysql://localhost:3306/shopdb?useUnicode=true&characterEncoding=UTF8&serverTimezone=Asia/Seoul
+Pool Size::::3
+usedConnections Size::::1:2
+수정 정상
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,13 +1,6 @@
+Update Test Start ...
 OK
 ejdbc:mysql://localhost:3306/shopdb?useUnicode=true&characterEncoding=UTF8&serverTimezone=Asia/Seoul
 Pool Size::::3
 usedConnections Size::::1:2
-usedConnections Size::::1:2
-{Cust(custId=id01, custPwd=pwd01, custName=이말숙, custRegdate=2025-06-27 13:47:28.0, custUpdate=2025-06-27 13:47:28.0)
-{Cust(custId=id02, custPwd=pwd02, custName=김말숙, custRegdate=2025-06-27 13:47:28.0, custUpdate=2025-06-27 13:47:28.0)
-{Cust(custId=id03, custPwd=pwd03, custName=황말숙, custRegdate=2025-06-27 13:47:28.0, custUpdate=2025-06-27 13:47:28.0)
-{Cust(custId=id55, custPwd=pwd55, custName=홍말순, custRegdate=2025-07-08 14:24:40.0, custUpdate=2025-07-08 14:24:40.0)
-{Cust(custId=id01, custPwd=pwd01, custName=이말숙, custRegdate=2025-06-27 13:47:28.0, custUpdate=2025-06-27 13:47:28.0)
-{Cust(custId=id02, custPwd=pwd02, custName=김말숙, custRegdate=2025-06-27 13:47:28.0, custUpdate=2025-06-27 13:47:28.0)
-{Cust(custId=id03, custPwd=pwd03, custName=황말숙, custRegdate=2025-06-27 13:47:28.0, custUpdate=2025-06-27 13:47:28.0)
-{Cust(custId=id55, custPwd=pwd55, custName=홍말순, custRegdate=2025-07-08 14:24:40.0, custUpdate=2025-07-08 14:24:40.0)
+수정 정상
