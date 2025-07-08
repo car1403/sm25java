@@ -36,6 +36,7 @@ public class ConnectionPool {
         for (int i = 0; i < INITIAL_POOL_SIZE; i++) {
             pool.add(createConnection(url, user, password));
         }
+        System.out.println("Pool Size::::"+pool.size());
         return new ConnectionPool(pool);
     }
 

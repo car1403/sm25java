@@ -1,4 +1,8 @@
-delete Test Start ...
+Select1 Test Start ...
 OK
 ejdbc:mysql://localhost:3306/shopdb?useUnicode=true&characterEncoding=UTF8&serverTimezone=Asia/Seoul
-삭제 정상
+Pool Size::::3
+{Cust(custId=id01, custPwd=pwd01, custName=이말숙, custRegdate=2025-06-27 13:47:28.0, custUpdate=2025-06-27 13:47:28.0)
+Select2 Test Start ...
+Pool Size::::3
+{Cust(custId=id01, custPwd=pwd01, custName=이말숙, custRegdate=2025-06-27 13:47:28.0, custUpdate=2025-06-27 13:47:28.0)
