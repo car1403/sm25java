@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cust.Insert" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-08T05:24:40.070Z" hostname="HB-301B" time="0.364">
+  <properties/>
+  <testcase name="insert()" classname="cust.Insert" time="0.364"/>
+  <system-out><![CDATA[insert Test Start ...
+OK
+jdbc:mysql://localhost:3306/shopdb?useUnicode=true&characterEncoding=UTF8&serverTimezone=Asia/Seoul
+등록 정상
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

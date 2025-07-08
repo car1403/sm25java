@@ -11,7 +11,7 @@ public class Insert {
         System.out.println("insert Test Start ...");
         CustService custService = new CustService();
         Cust cust = Cust.builder()
-                .custId("id01")
+                .custId("id55")
                 .custPwd("pwd55")
                 .custName("홍말순")
                 .build();
@@ -20,6 +20,7 @@ public class Insert {
             System.out.println("등록 정상");
         } catch (Exception e) {
             System.out.println("등록 오류");
+            e.printStackTrace();
         }
     }
 }
