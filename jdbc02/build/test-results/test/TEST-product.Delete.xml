@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="product.Delete" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-08T08:12:22.029Z" hostname="HB-301B" time="0.379">
+  <properties/>
+  <testcase name="insert()" classname="product.Delete" time="0.379"/>
+  <system-out><![CDATA[delete Test Start ...
+OK
+jdbc:mysql://localhost:3306/shopdb?useUnicode=true&characterEncoding=UTF8&serverTimezone=Asia/Seoul
+Pool Size::::3
+usedConnections Size::::1:2
+삭제 정상
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
