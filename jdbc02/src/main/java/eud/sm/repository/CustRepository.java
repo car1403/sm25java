@@ -58,7 +58,14 @@ public class CustRepository implements SmRepository<Cust, String> {
                 list.add(cust);
             }
         }catch (Exception e){
-
+            throw e;
+        }finally {
+            if (psmt != null) {
+                psmt.close();
+            }
+            if (rs != null) {
+                rs.close();
+            }
         }
 
         return list;
