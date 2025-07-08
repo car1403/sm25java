@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SelectTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-08T03:50:29.068Z" hostname="HB-301B" time="0.027">
+  <properties/>
+  <testcase name="test()" classname="SelectTest" time="0.027"/>
+  <system-out><![CDATA[2025-06-27 13:47:28.0
+Cust(custId=, custPwd=, custName=, custRegdate=2025-06-27T13:47:28, custUpdate=2025-06-27T13:47:28)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
